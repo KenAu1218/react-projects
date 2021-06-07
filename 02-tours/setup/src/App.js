@@ -7,7 +7,7 @@ const url = "https://course-api.com/react-tours-project";
 
 function App() {
   const [tours, setTours] = useState([]);
-  const [refresh, setRefresh] = useState(false);
+  const [refresh, setRefresh] = useState(true);
 
   const deleteTour = (id) => {
     const newtours = tours.filter((tour) => tour.id !== id); // filter don't add {} as () => {}
