@@ -162,6 +162,8 @@ Slider
   position: relative;
   display: flex;
   overflow: hidden;
+  background-color: red;
+  padding: 2rem;
 }
 .person-img {
   border-radius: 50%;
@@ -219,7 +221,7 @@ article h4 {
   left: 0;
 }
 .next {
-  right: 0;
+  left: 10px;
 }
 @media (min-width: 800px) {
   .text {
@@ -240,6 +242,7 @@ article {
   height: 100%;
   opacity: 0;
   transition: var(--transition);
+  background-color: yellow;
 }
 article.activeSlide {
   opacity: 1;
